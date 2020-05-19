@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENSAJES: "
+        android:textColor="#DF1607"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENSAJES DESEADOS: "
+        android:textColor="#DF1607"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/actualizarDeseados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR DESEADOS"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENSAJES NO DESEADOS: "
+        android:textColor="#DF1607"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/actualizarNoDeseados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR NO DESEADOS"
+        android:layout_marginBottom="25dp"/>
+
+
+</LinearLayout>
